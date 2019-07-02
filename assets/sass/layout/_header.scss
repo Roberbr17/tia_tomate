@@ -1,0 +1,26 @@
+.container{
+  margin-top: 0;
+  padding: 60px;
+  text-align: center;
+  display: inline-block;
+}
+
+.header{
+  @extend .section;
+  background-color: $jelly-bean;
+  display: block;
+  height: 80vh;
+
+  &__title{
+    font-size: $x-large;
+    font-weight: $extra-light;
+    color: $white;
+    transform: translate(0%, 80%);
+  }
+
+  &__sub-title{
+    font-size: $x-large;
+    text-transform: uppercase;
+    font-weight: $bold;
+  }
+}
